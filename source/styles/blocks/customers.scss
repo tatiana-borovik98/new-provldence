@@ -1,0 +1,62 @@
+.customers {
+  padding: 130px 0;
+  text-align: center;
+  &__userpics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__userpics-arrow-left {
+    width: 22px;
+    height: 41px;
+    background-image: url(../img/arrow-left.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__userpics-img-1 {
+    width: 90px;
+    height: 90px;
+    background-image: url(../img/userpic-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__userpics-img-2 {
+    width: 130px;
+    height: 130px;
+    background-image: url(../img/userpic-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__userpics-img-3 {
+    width: 90px;
+    height: 90px;
+    background-image: url(../img/userpic-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__userpics-arrow-right {
+    width: 22px;
+    height: 41px;
+    background-image: url(../img/arrow-right.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 300;
+    color: #26272d;
+    padding-bottom: 48px;
+    padding-top: 75px;
+  }
+  &__stars {
+    margin: 30px 0 68px;
+  }
+  &__text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #26272d;
+  }
+  &__description {
+    padding: 0px 200px;
+  }
+}

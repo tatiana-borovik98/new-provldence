@@ -1,0 +1,100 @@
+.feature-iphone {
+  padding: 86px 0 42px;
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+  }
+  &__content-left {
+    background-image: url(../img/feature-iphone.png);
+    height: 1039px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  &__content-right {
+    padding: 0 200px 0 0;
+  }
+  &__content-right-title {
+    padding-bottom: 73px;
+  }
+  &__content-right-description {
+    padding-bottom: 30px;
+  }
+  &__content-right-button-left {
+    width: 202px;
+    height: 42px;
+    border-radius: 21px;
+    background: 0 0;
+    border: 1px solid #26272d25;
+    cursor: pointer;
+    color: #26272d;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 75px 20px 0 0;
+  }
+  &__content-right-button-left:active {
+    background-color: #267df4;
+    color: white;
+  }
+  &__content-right-button-right {
+    width: 142px;
+    height: 42px;
+    border-radius: 21px;
+    background: 0 0;
+    border: 1px solid #26272d25;
+    cursor: pointer;
+    color: #26272d;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 75px;
+  }
+  &__content-right-button-right:active {
+    background-color: #267df4;
+    color: white;
+  }
+  &__content-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 231px;
+  }
+  &__content-bottom-left {
+    margin-left: 200px;
+    padding-right: 100px;
+  }
+  &__content-bottom-left-title {
+    padding-bottom: 73px;
+  }
+  &__content-bottom-left-description {
+    padding-bottom: 30px;
+  }
+  &__content-bottom-left-text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 78px;
+    padding-bottom: 31px;
+  }
+  &__content-bottom-left-partners-1 {
+    padding-right: 30px;
+  }
+  &__content-bottom-right {
+    background-image: url(../img/map.png);
+    width: 996px;
+    height: 498px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 1440px) {
+  .feature-iphone__content-left {
+    height: 582px;
+  }
+  .feature-iphone__content-right {
+    padding: 0px 74px 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .feature-iphone__content-bottom {
+    margin-top: 30px;
+  }
+}

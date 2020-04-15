@@ -1,0 +1,75 @@
+.screens {
+  background-color: #f5f5f8;
+  padding: 140px 0 120px;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__text-line {
+    width: 50px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #267df4;
+    margin: 47px 0 43px;
+  }
+  &__text-description {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #8c8f94;
+    margin-bottom: 46px;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__img-screen-1 {
+    background-image: url(../img/screen-1.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100%;
+  }
+  &__img-screen-2 {
+    background-image: url(../img/screen-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &__img-screen-iphone {
+    background-image: url(../img/screen-iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &__img-screen-3 {
+    background-image: url(../img/screen-3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &__img-screen-4 {
+    background-image: url(../img/screen-4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &__img-screen-1-size {
+    width: 320px;
+    height: 568px;
+  }
+  &__img-screen-iphon-size {
+    width: 369px;
+    height: 753px;
+  }
+}
+@media (max-width: 1024px) {
+  .screens {
+    padding: 140px 0 20px;
+    &__img-screen-iphon-size {
+      width: 369px;
+      height: 406px;
+    }
+    &__img-screen-1-size {
+      width: 328px;
+      height: 326px;
+    }
+  }
+}

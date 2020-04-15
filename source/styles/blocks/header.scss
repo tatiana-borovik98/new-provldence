@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding-top: 44px;
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  &__menu {
+    margin-top: 14px;
+  }
+  &__logo {
+    text-align: center;
+    margin-top: 17px;
+  }
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__right-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #26272d;
+    opacity: 0.5;
+    padding-right: 30px;
+    margin-top: 12px;
+  }
+  &__right-text:hover {
+    opacity: 1;
+  }
+  &__right-button {
+    width: 132px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #267df4;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+  }
+  &__right-button-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 9px 12px 12px 12px;
+  }
+  &__right-button-size {
+    margin: 8px 0 13px 17px;
+  }
+}

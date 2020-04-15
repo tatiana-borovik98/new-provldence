@@ -1,0 +1,40 @@
+.features {
+  padding: 120px 0 40px;
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 111px;
+    padding-bottom: 129px;
+  }
+  &__content-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  &__content-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  &__content-left-basket {
+    background-image: url(../img/basket.png);
+    width: 42px;
+    height: 51px;
+    margin-bottom: 25px;
+  }
+  &__content-right-clock {
+    background-image: url(../img/clock.png);
+    width: 41px;
+    height: 47px;
+    margin-bottom: 25px;
+  }
+  &__content-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    color: #26272d;
+    margin-bottom: 48px;
+  }
+  &__content-description {
+    margin-bottom: 30px;
+  }
+}
+

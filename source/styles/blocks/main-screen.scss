@@ -1,0 +1,50 @@
+.main-screen {
+  background-image: url(../img/main-screen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  margin-bottom: 125px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    font-size: 62px;
+    padding-bottom: 40px;
+  }
+  &__description {
+    text-align: center;
+    padding-bottom: 62px;
+  }
+  &__button {
+    background: 0 0;
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #26272d25;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+  }
+  &__button-img {
+    width: 10px;
+    height: 10px;
+    margin: 19px 0 20px 28px;
+  }
+  &__button-text {
+    margin: 13px 28px 17px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #26272d;
+  }
+  &__iphone {
+    background-image: url(../img/iphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 439px;
+    height: 455px;
+    margin: 0;
+  }
+}
