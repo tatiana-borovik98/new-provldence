@@ -36,6 +36,9 @@
     margin-left: 5px;
     margin-top: 4px;
   }
+  &__content-left-selector-left:active{
+    background-color: white;
+  }
   &__content-left-selector-right {
     width: 124px;
     height: 42px;
@@ -51,6 +54,10 @@
     margin-left: 5px;
     margin-top: 4px;
   }
+  &__content-left-selector-right:active{
+    background-color: white;
+  }
+
   &__content-left-question {
     font-size: 14px;
     font-weight: 400;

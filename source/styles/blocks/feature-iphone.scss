@@ -4,12 +4,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 100px;
+
   }
   &__content-left {
-    background-image: url(../img/feature-iphone.png);
-    height: 1039px;
-    background-size: 100%;
+    background-image: url('../img/feature-iphone.png');
+    height: 800px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10% 15%;
   }
   &__content-right {
     padding: 0 200px 0 0;

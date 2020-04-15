@@ -26,9 +26,9 @@ const path = {
         watchSource: './source/pages/*/*.pug',
     },
     scripts:  {
-        source:      './source/js/**/*',
+        source:      './source/js/*',
         dest:        './build/js/',
-        watchSource: './source/js/**/*.js',
+        watchSource: './source/js/*.js',
     },
     images:   {
         source: './source/img/**/*',
@@ -80,7 +80,6 @@ gulp.task('scripts', cb => {
     pump([
             gulp.src(path.scripts.source),
             concat('script.js'),
-            uglify(),
             gulp.dest(path.scripts.dest),
         ],
         cb,
